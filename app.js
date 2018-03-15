@@ -3,6 +3,7 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
 // https://socket.io/get-started/chat/
+// https://github.com/socketio/socket.io/stargazers
 app.get('/', function(req, res) {
   res.sendFile(__dirname + '/index.html');
 });
